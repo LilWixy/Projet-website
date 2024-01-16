@@ -1,0 +1,119 @@
+<!-- to-do list :
+icon du site
+1 class pour Accueil, Rechercher, Bibliothèque
+1 class pour les titres de la bibliothèques : logo + texte + sous texte
+1 class pour les 6 playlist en haut : logo + texte
+1 class pour afficher les 8 titres + logos au milieu
+1 class pour "Playlists", "Artistes", "Albums", "Podcasts et émissions"
+barre du bas avec le lecteur
+icones : maison, loupe, bibliothèque, coeur, play, shuffle, previous, next, loop, audio speaker
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Class_selectors
+
+https://www.wearedevelopers.com/magazine/vs-code-shortcuts#:~:text=Copy%20Line%20Up%2FDown,-This%20shortcut%20allows&text=Go%20to%20the%20line%20you%20want%20to%20copy%20and%20type,or%20down%20the%20current%20line.
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Votre première page web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <header>
+
+    </header>
+
+    <body>
+        <div class ="header">
+            <nav>
+                <img src="images/logo.png" class ="logo" alt="logo"/>
+                <div>
+                    <button id="button1">English</button>
+                    <button id="button2">Sign in</button>
+                </div>
+            </nav>
+
+
+            <div class="main-page">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-log">
+                    <input type="email" placeholder="Email address" required/>
+                    <button type ="submit">Get Started </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="row">
+                <div class="text-col">
+                    <h2>Enjoy on your TV.</h2>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="img-col">
+                    <img src="images/tv.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-col">
+                    <img src="images/devices.png">
+                </div>
+                <div class="text-col">
+                    <h2>Watch everywhere.</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-col">
+                    <h2>Create profiles for kids.</h2>
+                    <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+                </div>
+                <div class="img-col">
+                    <img src="images/kids.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-col">
+                    <img src="images/mobile.png">
+                </div>
+                <div class="text-col">
+                    <h2>Download your shows to watch offline.</h2>
+                    <p>Only available on ad-free plans.</p>
+                </div>
+            </div>
+        </div>
+          
+    </body>
+
+    <footer>
+        <div id="basdepage">
+            <div id="basdepage">
+                <div>FAQ</div>
+                <div>Investor Relations</div>
+                <div>Buy Gift Cards</div>
+                <div>Cookie Preferences</div>
+            </div>
+
+            <div id="basdepage">
+                <div>un</div>
+                <div>deux</div>
+                <div>trois</div>
+            </div>
+            <div id="basdepage">
+                <div>un</div>
+                <div>deux</div>
+                <div>trois</div>
+            </div>
+        </div>
+    </footer>
+</html>
