@@ -64,12 +64,23 @@ nav #button1
 #basdepage
 {
     display: flex;
-    height: 100px;
-    width: 500px;
+    height: 150px;
+    width: 200px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
+    margin-left:150px;
+    margin-top:10px;
+    padding:auto;
+}
+#call
+{
+    margin-left: 300px;
+}
+footer
+{
+    color:rgba(255,255,255,0.3)
 }
 
 .logo
